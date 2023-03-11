@@ -1,0 +1,15 @@
+.time {
+  display: flex;
+}
+
+.time__hours {
+  color: red;
+}
+
+.time__minutes {
+  color: green;
+}
+
+.time__seconds {
+  color: blue;
+}

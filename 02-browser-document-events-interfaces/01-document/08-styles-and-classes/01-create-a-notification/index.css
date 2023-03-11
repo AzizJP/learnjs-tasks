@@ -1,0 +1,14 @@
+.notification {
+  position: fixed;
+  padding: 5px;
+  border: 1px solid black;
+  background: white;
+  font-size: 20px;
+  text-align: center;
+  z-index: 2;
+}
+
+.welcome {
+  background: #b80000;
+  color: yellow;
+}
