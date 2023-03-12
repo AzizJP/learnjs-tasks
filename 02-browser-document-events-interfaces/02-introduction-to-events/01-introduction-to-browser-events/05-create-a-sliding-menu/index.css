@@ -1,0 +1,32 @@
+.button {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 3px;
+  background-color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button__arrow {
+  width: 20px;
+  height: 20px;
+  color: green;
+}
+
+.button__arrow_opened {
+  transform: rotate(90deg);
+}
+
+.list {
+  display: none;
+  margin: 0;
+  padding: 0 0 0 25px;
+  list-style: none;
+}
+
+.list_opened {
+  display: block;
+}

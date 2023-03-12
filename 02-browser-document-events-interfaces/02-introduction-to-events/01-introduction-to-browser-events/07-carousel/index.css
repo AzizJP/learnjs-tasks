@@ -1,0 +1,67 @@
+body {
+  padding: 10px;
+}
+
+.carousel {
+  position: relative;
+  width: 390px;
+  padding: 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background: #eee;
+}
+
+.images {
+  width: 100%;
+  overflow: hidden;
+}
+
+.images img {
+  display: block;
+  width: 130px;
+  height: 130px;
+}
+
+.images ul {
+  height: 130px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+  transition: margin-left linear 250ms;
+}
+
+.images li {
+  display: inline-block;
+}
+
+.arrow {
+  position: absolute;
+  top: 60px;
+  padding: 0;
+  background: #ddd;
+  border-radius: 15px;
+  border: 1px solid gray;
+  font-size: 24px;
+  line-height: 24px;
+  color: #444;
+  display: block;
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.arrow_left {
+  left: 10px;
+}
+
+.arrow_right {
+  right: 10px;
+}

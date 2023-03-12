@@ -1,0 +1,16 @@
+#field {
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  height: 150px;
+  border: 10px solid black;
+  background-color: #00ff00;
+  cursor: pointer;
+}
+
+#ball {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 1s;
+}
